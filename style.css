@@ -1,0 +1,168 @@
+
+#web-page{
+    background-color: #fff;
+    border-radius: 2px;
+    font-family:'mona-sans',sans-serif;
+    
+}
+
+.nav a{
+    display:inline-flex;
+    font-size: 14px;
+    color: rgb(158, 158, 167);
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 14px 16px;
+    justify-content: space-between;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav a:hover{
+    background-color: rgb(197, 215, 215);
+}
+.log-in{
+    text-decoration-color: rgb(40, 42, 45);
+}
+.book-logo{
+    width: 2%;
+    margin-left: 3%;
+}
+button{
+    border-radius: 50px;
+    background-color: rgb(120, 185, 180);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    font-style: 'mona-san',sans-serif;
+}
+#landing-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+.girl-pic{
+    background-color:rgb(234, 181, 107) ;
+    border-radius: 80%;
+    height:60% ;
+    
+      
+}
+h1{
+    color: rgb(7,11,47);
+}
+.input{
+    position: relative;
+    display: inline-block;
+    
+}
+input{
+    border-radius: 30px;
+    width: 380px;
+    height: 42px;
+    position: relative;
+    border-top-width: 0.1px;
+    border-bottom-width: 0.1px;
+    border-left-width: 0.1px;
+    border-top-color: rgb(225, 221, 221);
+    
+    
+    
+}
+#button1{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right:0;
+    font-style: 'mona-san',sans-serif;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    width: 3%;
+    text-align: center;
+}
+.social-media {
+    margin-left: 22%;
+}
+.fb  {
+width: 6%;
+
+
+}
+.pinterest  {
+width: 5%;
+height: 37px;
+
+
+}
+.twit {
+width: 9%;
+
+}
+.ig {
+width: 7%;
+height: 50px;
+}
+.site-info{
+    text-align: center;
+    padding-top: 30px;
+}
+footer{
+    background-color: rgb(227, 240, 239);
+    text-align: center;
+    
+
+    
+}
+.social{
+    width: 13%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+@media screen and (max-width:768px) {
+    
+    .nav a{
+        display: inline-flex;
+        font-size: 15px;
+        color: rgb(158, 158, 167);
+        text-decoration: none;
+        margin-left: 70px;
+        padding: 9px 10px;
+        justify-content: space-between;
+        font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+    
+}
+#landing-page{
+    display: grid;
+    justify-content: center;
+    margin-top: 6;
+}
+input{
+    border-radius: 30px;
+    width: 300px;
+    height: 42px;
+    position: relative;
+    border-top-width: 0.1px;
+    border-bottom-width: 0.1px;
+    border-left-width: 0.1px;
+    border-top-color: rgb(225, 221, 221);
+    
+    
+    
+}
+#web-page{
+    background-color: #fff;
+    border-radius: 2px;
+    font-family:'mona-sans',sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+}
