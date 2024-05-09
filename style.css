@@ -79,17 +79,12 @@ input{
     margin-top: 2%;
     
 }
-.fa-facebook{
-    background: #3B5998;
-    color: white;
-    width: 3%;
-    text-align: center;
-}
+
 .social-media {
     margin-left: 22%;
 }
 .fb  {
-width: 6%;
+width: 7%;
 
 
 }
@@ -100,7 +95,7 @@ height: 37px;
 
 }
 .twit {
-width: 9%;
+width: 10%;
 
 }
 .ig {
@@ -113,10 +108,7 @@ height: 50px;
 }
 footer{
     background-color: rgb(227, 240, 239);
-    text-align: center;
-    
-
-    
+    text-align: center;    
 }
 .social{
     width: 13%;
@@ -164,5 +156,19 @@ input{
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+}
+.site-info{
+    text-align: center;
+    padding-top: 30px;
+}
+footer{
+    background-color: rgb(227, 240, 239);
+    text-align: center;  
+
+}.social{
+    width: 7%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
 }
 }
